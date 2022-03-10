@@ -28,7 +28,7 @@ public class DefaultGeneratorSettings {
 		case END:
 			return createForEnd();
 		}
-		return null;
+		return CustomGeneratorSettings.defaults();
 	}
 	
     public static CustomGeneratorSettings createForNether() {
